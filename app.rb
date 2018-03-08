@@ -13,6 +13,13 @@ puts "Please enter your second number"
 
 number2 = gets.to_i
 
-total = numbuer1+number2
+total_addiiton = numbuer1+number2
 
-puts "Your addition to numbers are: #{total}"
+puts "Would you like to (a)dd (s)ubtract (m)ultiply or (d)divide"
+
+operation = gets
+
+if operation = "add"
+
+puts "Your addition to numbers are: #{total_addiiton}"
+end
